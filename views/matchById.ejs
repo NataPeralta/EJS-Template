@@ -1,0 +1,11 @@
+<%- include('header', { title: data.first_name }); %>
+  
+    <div class="card">
+       <p> <%= data.id %> </p>
+       <h2> <%= data.first_name %>, <%= data.last_name %>  </h2>
+       <p> <%= data.precio %> </p>
+      <img src="<%= data.avatar %>" /> 
+    </div>
+         
+<%- include('footer'); %>
+
